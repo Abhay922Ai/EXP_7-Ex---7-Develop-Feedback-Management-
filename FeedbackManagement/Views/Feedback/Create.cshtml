@@ -1,0 +1,11 @@
+
+@model FeedbackManagement.Models.Feedback
+
+@{
+    ViewBag.Title = "Submit Feedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Submit Your Feedback</h3>
+
+@Html.Partial("_FeedbackForm", Model)

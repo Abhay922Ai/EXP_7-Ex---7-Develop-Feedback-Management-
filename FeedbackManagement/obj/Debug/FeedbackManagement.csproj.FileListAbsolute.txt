@@ -1,0 +1,2 @@
+C:\Users\Abhay kumar\OneDrive\Desktop\FeedbackManagement_Experiment7\FeedbackManagement\obj\Debug\FeedbackManagement.csproj.AssemblyReference.cache
+C:\Users\Abhay kumar\OneDrive\Desktop\FeedbackManagement_Experiment7\FeedbackManagement\obj\Debug\FeedbackManagement.csproj.CoreCompileInputs.cache

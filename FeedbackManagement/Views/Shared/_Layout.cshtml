@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Feedback Management</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="site-header">
+        <h1>Feedback Management System</h1>
+        @Html.ActionLink("Submit Feedback", "Create", "Feedback", null, new { @class = "nav-link" })
+    </header>
+    <main class="container">
+        @RenderBody()
+    </main>
+    <footer class="site-footer">Feedback Management System · ASP.NET MVC Practical</footer>
+</body>
+</html>

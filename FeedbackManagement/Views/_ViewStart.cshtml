@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title - Feedback Management</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        body {
+            font-family: Arial;
+            margin: 30px;
+        }
+
+        header, footer {
+            background: #164e8a;
+            color: white;
+            padding: 15px;
+        }
+
+        main {
+            margin: 25px 0;
+        }
+
+        .field {
+            margin-bottom: 15px;
+        }
+
+            .field input, .field textarea, .field select {
+                padding: 8px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Feedback Management System</h2>
+        <a href="@Url.Action("Create", "Feedback")"
+           style="color:white">Submit Feedback</a>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        <p>Feedback Management System</p>
+    </footer>
+</body>
+</html>

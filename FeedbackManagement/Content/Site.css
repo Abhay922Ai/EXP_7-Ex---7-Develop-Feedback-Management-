@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #172033; background: #f3f6fb; line-height: 1.5; }
+.site-header { background: #164e8a; color: #fff; padding: 22px max(24px, calc((100% - 900px) / 2)); }
+.site-header h1 { margin: 0 0 8px; font-size: 25px; }
+.nav-link { color: #fff; }
+.container { width: min(900px, calc(100% - 32px)); margin: 32px auto; min-height: 55vh; }
+.panel { background: white; padding: 28px; border-radius: 12px; box-shadow: 0 5px 22px rgba(20, 40, 70, .08); max-width: 650px; margin: 0 auto; }
+.panel h2 { margin-top: 0; }
+.intro { color: #5b6577; }
+.field { margin: 18px 0; }
+.field label { display: block; font-weight: 600; margin-bottom: 6px; }
+.field input, .field textarea, .field select { width: 100%; padding: 11px 12px; border: 1px solid #cbd3df; border-radius: 6px; font: inherit; background: #fff; }
+.field input:focus, .field textarea:focus, .field select:focus { outline: 2px solid #9bc8f7; border-color: #2878c7; }
+.error, .validation-summary { color: #b42318; font-size: .9rem; }
+.validation-summary ul { margin-top: 5px; }
+.submit-button { display: inline-block; border: 0; border-radius: 6px; background: #1765ad; color: #fff; padding: 12px 18px; font-size: 1rem; cursor: pointer; text-decoration: none; }
+.submit-button:hover { background: #104d87; }
+.success-panel { border-top: 5px solid #24945a; }
+.details { display: grid; grid-template-columns: 110px 1fr; gap: 10px; }
+.details dt { font-weight: 700; }
+.details dd { margin: 0; overflow-wrap: anywhere; }
+.site-footer { text-align: center; color: #637083; padding: 18px; }
